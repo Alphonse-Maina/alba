@@ -3,6 +3,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 .kotlin
+!**/src/main/resources/
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -31,7 +32,7 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
-/src/main/resources/
+
 
 ### VS Code ###
 .vscode/
