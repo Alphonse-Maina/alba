@@ -50,13 +50,13 @@ public class MainFrame extends JFrame {
         contentPanel = new JPanel(cardLayout);
         contentPanel.setBackground(CONTENT_BG);
         contentPanel.add(new SalePanel(), "SALE");
-//        contentPanel.add(new AppointmentsPanel(), "APPOINTMENTS");
-//        contentPanel.add(new CustomersPanel(), "CUSTOMERS");
-//        contentPanel.add(new ServicesPanel(), "SERVICES");
-//        contentPanel.add(new InventoryPanel(), "INVENTORY");
-//        contentPanel.add(new ReportsPanel(), "REPORTS");
-//        contentPanel.add(new StaffPanel(), "STAFF");
-//        contentPanel.add(new SettingsPanel(), "SETTINGS");
+        contentPanel.add(new AppointmentsPanel(), "APPOINTMENTS");
+        contentPanel.add(new CustomersPanel(), "CUSTOMERS");
+        contentPanel.add(new ServicesPanel(), "SERVICES");
+        contentPanel.add(new InventoryPanel(), "INVENTORY");
+        contentPanel.add(new ReportsPanel(), "REPORTS");
+        contentPanel.add(new StaffPanel(), "STAFF");
+        contentPanel.add(new SettingsPanel(), "SETTINGS");
 
         // === STATUS BAR ===
         JPanel statusPanel = buildStatusBar();
